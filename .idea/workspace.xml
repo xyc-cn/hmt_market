@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae29df43-5422-4eec-b58c-9b9962226121" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/item_goods.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/newest_good.js" />
-      <change type="DELETED" beforePath="H:\日常测试代码\hmt market\routes\user.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/good.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/item_goods.js" afterPath="$PROJECT_DIR$/models/item_goods.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hmt market.iws" />
@@ -43,11 +41,8 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="97" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-              <folding>
-                <marker date="1407398356969" expanded="true" signature="108:308" placeholder="{...}" />
-                <marker date="1407398356969" expanded="true" signature="144:304" placeholder="{...}" />
-              </folding>
+            <state line="27" column="33" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="925">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,7 +50,7 @@
       <file leaf-file-name="newest_good.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/newest_good.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="73" selection-start="906" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1150">
+            <state line="6" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1150">
               <folding />
             </state>
           </provider>
@@ -64,7 +59,7 @@
       <file leaf-file-name="item_goods.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/item_goods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="33" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="925">
+            <state line="21" column="47" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1475">
               <folding />
             </state>
           </provider>
@@ -73,8 +68,19 @@
       <file leaf-file-name="test.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="70" selection-start="567" selection-end="567" vertical-scroll-proportion="0.6" vertical-offset="225" max-vertical-offset="1550">
+            <state line="20" column="66" selection-start="516" selection-end="563" vertical-scroll-proportion="0.57251906" vertical-offset="225" max-vertical-offset="1550">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="good.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/good.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="7" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="2225">
+              <folding>
+                <element signature="e#0#46#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -93,17 +99,19 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/models/newest_good.js" />
-        <option value="$PROJECT_DIR$/models/item_goods.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/models/test.js" />
+        <option value="$PROJECT_DIR$/models/item_goods.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/models/good.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -154,6 +162,30 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="hmt market" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hmt market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hmt market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hmt market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hmt market" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -247,21 +279,27 @@
       <created>1407376331630</created>
       <updated>1407376331630</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit&#10;初步实现数据抓取和处理">
+      <created>1407418583278</created>
+      <updated>1407418583278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="0" width="1364" height="726" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24943481" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24609666" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32663316" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31707317" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -284,6 +322,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Initial commit&#10;初步实现数据抓取和处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;初步实现数据抓取和处理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -303,33 +343,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="97" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <folding>
-            <marker date="1407398356969" expanded="true" signature="108:308" placeholder="{...}" />
-            <marker date="1407398356969" expanded="true" signature="144:304" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/newest_good.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="73" selection-start="906" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1150">
+        <state line="6" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1150">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/item_goods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="925">
+        <state line="21" column="47" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1475">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="33" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="925">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/good.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="7" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="2225">
+          <folding>
+            <element signature="e#0#46#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="70" selection-start="567" selection-end="567" vertical-scroll-proportion="0.6" vertical-offset="225" max-vertical-offset="1550">
+        <state line="20" column="66" selection-start="516" selection-end="563" vertical-scroll-proportion="0.57251906" vertical-offset="225" max-vertical-offset="1550">
           <folding />
         </state>
       </provider>
