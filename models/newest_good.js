@@ -3,12 +3,10 @@
  */
 var request = require('request');
 var cheerio = require('cheerio');
-var debug = require('debug')('blog:update');
-
-debug('读取博文类别列表');
 
 // 读取博客首页
-request('http://market.scau.edu.cn/index.php', function (err, res) {
+module.exports= function(url,callback){
+request(url, function (err, res) {
     if (err) return console.error(err);
 
     // 根据网页内容创建DOM操作对象
@@ -22,6 +20,7 @@ request('http://market.scau.edu.cn/index.php', function (err, res) {
 
         var $me = $(this);
         var item = {
+            owner: url.match(/iid=(\w+)/)||"index",
             name: $me.find('a').text().trim(),
             status: $($me.find('td')[1]).text().trim(),
             date : $($me.find('td')[2]).text().trim(),
@@ -31,11 +30,14 @@ request('http://market.scau.edu.cn/index.php', function (err, res) {
         var s = item.url;
         if(s!=null){
           item.id = s.match(/iid=([0-9a-z]+)&iaction=(\w+)&st=(\w+)/)[1];
+          classList.push(item);
         }
-            classList.push(item);
+
 
     });
 
     // 输出结果
     console.log(classList);
+    callback(classList);
 });
+}

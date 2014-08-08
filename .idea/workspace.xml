@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae29df43-5422-4eec-b58c-9b9962226121" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/good.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/catalog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/db.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/good_item.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/good.js" afterPath="$PROJECT_DIR$/models/good.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/item_goods.js" afterPath="$PROJECT_DIR$/models/item_goods.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/newest_good.js" afterPath="$PROJECT_DIR$/models/newest_good.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/test.js" afterPath="$PROJECT_DIR$/models/test.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hmt market.iws" />
@@ -29,46 +34,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="27" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="975">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="33" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="925">
+            <state line="50" column="30" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.49109414" vertical-offset="1057" max-vertical-offset="1600">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newest_good.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/newest_good.js">
+      <file leaf-file-name="goodlistmodel.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/goodlistmodel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1150">
+            <state line="33" column="0" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_goods.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/item_goods.js">
+      <file leaf-file-name="catalog.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/catalog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="47" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1475">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/models/test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="66" selection-start="516" selection-end="563" vertical-scroll-proportion="0.57251906" vertical-offset="225" max-vertical-offset="1550">
+            <state line="50" column="37" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1700">
               <folding />
             </state>
           </provider>
@@ -77,10 +64,35 @@
       <file leaf-file-name="good.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/good.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="7" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="2225">
-              <folding>
-                <element signature="e#0#46#0" expanded="false" />
-              </folding>
+            <state line="58" column="9" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0" vertical-offset="1450" max-vertical-offset="2275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newest_good.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/newest_good.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="23" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item_goods.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/item_goods.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="43" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1550">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="good_item.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/good_item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="23" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="2200">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,12 +110,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/models/newest_good.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/models/test.js" />
         <option value="$PROJECT_DIR$/models/item_goods.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/models/catalog_good.js" />
+        <option value="$PROJECT_DIR$/models/db.js" />
         <option value="$PROJECT_DIR$/models/good.js" />
+        <option value="$PROJECT_DIR$/models/index_data.js" />
+        <option value="$PROJECT_DIR$/models/indexModel.js" />
+        <option value="$PROJECT_DIR$/models/catalog.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/models/good_item.js" />
+        <option value="$PROJECT_DIR$/models/newest_good.js" />
+        <option value="$PROJECT_DIR$/models/test.js" />
+        <option value="$PROJECT_DIR$/models/goodmodel.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
       </list>
     </option>
   </component>
@@ -164,30 +183,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmt market" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmt market" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmt market" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hmt market" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -201,22 +196,16 @@
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="H:/node/test" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\日常测试代码\hmt market\models" />
       <recent name="H:\日常测试代码\hmt market\routes" />
       <recent name="H:\日常测试代码\hmt market" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.Unnamed">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -227,15 +216,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -283,14 +280,17 @@
       <created>1407418583278</created>
       <updated>1407418583278</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="完成远程数据库链接与增加字段修改字段的功能">
+      <created>1407430978677</created>
+      <updated>1407430978677</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -303,11 +303,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -323,59 +324,173 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Initial commit&#10;初步实现数据抓取和处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit&#10;初步实现数据抓取和处理" />
+    <MESSAGE value="完成远程数据库链接与增加字段修改字段的功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成远程数据库链接与增加字段修改字段的功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.WebStorm7/system/extLibs/nodejs-v0.10.23-src/core-modules-sources/lib/net.js">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1126" column="4" selection-start="29345" selection-end="29345" vertical-scroll-proportion="0.33333334" vertical-offset="27550" max-vertical-offset="32800">
+        <state line="16" column="10" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1550">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="975">
+        <state line="13" column="38" selection-start="239" selection-end="239" vertical-scroll-proportion="0.0" vertical-offset="325" max-vertical-offset="975">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/newest_good.js">
+    <entry file="file://$PROJECT_DIR$/models/catalog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="1150">
+        <state line="60" column="0" selection-start="1337" selection-end="1337" vertical-scroll-proportion="0.0" vertical-offset="1109" max-vertical-offset="1700">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/item_goods.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="47" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="1475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="33" selection-start="777" selection-end="777" vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="925">
+        <state line="12" column="40" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="1600">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/good.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="7" selection-start="2041" selection-end="2041" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="2225">
-          <folding>
-            <element signature="e#0#46#0" expanded="false" />
-          </folding>
+        <state line="52" column="0" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="2275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/good_item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="8" selection-start="1619" selection-end="1619" vertical-scroll-proportion="0.0" vertical-offset="1484" max-vertical-offset="2125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="66" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="350">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="209" column="14" selection-start="6043" selection-end="6043" vertical-scroll-proportion="0.33240223" vertical-offset="5056" max-vertical-offset="18050" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/lib/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="211" column="14" selection-start="6375" selection-end="6375" vertical-scroll-proportion="0.33157894" vertical-offset="5149" max-vertical-offset="16375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="66" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection_pool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="149" column="14" selection-start="5615" selection-end="5615" vertical-scroll-proportion="0.0" vertical-offset="3602" max-vertical-offset="7775">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="545" column="73" selection-start="21530" selection-end="21530" vertical-scroll-proportion="0.0" vertical-offset="13506" max-vertical-offset="23750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebStorm7/system/extLibs/nodejs-v0.10.23-src/core-modules-sources/lib/net.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="829" column="15" selection-start="21360" selection-end="21360" vertical-scroll-proportion="0.0" vertical-offset="20127" max-vertical-offset="32800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/mongodb/connection/connection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="377" column="35" selection-start="14387" selection-end="14387" vertical-scroll-proportion="0.18157895" vertical-offset="9356" max-vertical-offset="14200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.WebStorm7/system/extLibs/nodejs-v0.10.23-src/core-modules-sources/lib/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="13" selection-start="3176" selection-end="3176" vertical-scroll-proportion="0.82188296" vertical-offset="1452" max-vertical-offset="7075">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="66" selection-start="516" selection-end="563" vertical-scroll-proportion="0.57251906" vertical-offset="225" max-vertical-offset="1550">
+        <state line="14" column="57" selection-start="278" selection-end="278" vertical-scroll-proportion="0.36386767" vertical-offset="157" max-vertical-offset="1275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/goodlistmodel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1018" selection-end="1018" vertical-scroll-proportion="0.0" vertical-offset="532" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/catalog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="37" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="1700">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/good_item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="23" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="750" max-vertical-offset="2200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/newest_good.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/item_goods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="43" selection-start="866" selection-end="866" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="1550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/good.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="9" selection-start="1401" selection-end="1401" vertical-scroll-proportion="0.0" vertical-offset="1075" max-vertical-offset="2275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="30" selection-start="1763" selection-end="1763" vertical-scroll-proportion="0.49109414" vertical-offset="1057" max-vertical-offset="1600">
           <folding />
         </state>
       </provider>

@@ -6,6 +6,7 @@
  */
 var request = require('request');
 var cheerio = require('cheerio');
+var Good = require('../models/good.js');
 
 
 // 读取博客首页
@@ -22,8 +23,7 @@ module.exports = function(url,callback){
         var dom = $('#mainRight_goodsSubject');
         if(dom.find("#bcastr4").length!=0){
             var imgurl =dom.find("#bcastr4").attr('data').split('xml=')[1];
-            getPhotos(imgurl,function(data){
-                item.img=data;
+            getPhotos(imgurl,item.iid,function(data){
             })
         }
 
@@ -40,7 +40,7 @@ module.exports = function(url,callback){
 
     });
 
-    function getPhotos(imgurl,callback){
+    function getPhotos(imgurl,iid,callback){
         request(imgurl, function (err, res2) {
 
             var img = [];
@@ -50,7 +50,10 @@ module.exports = function(url,callback){
             $$("image").each(function(){
                 img.push($$(this).text())
             });
-            callback(img);
+            Good.update(iid,img,function(data){
+                callback(data);
+            })
+
         })
 }
 }

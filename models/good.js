@@ -2,8 +2,7 @@
  * Created by Administrator on 14-8-7.
  */
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://admin:411411411@kahana.mongohq.com:10043/blog');
-
+var db = require('./db.js');
 var goodSchema = new mongoose.Schema({
     iid:String,
     goods_owner: String,
@@ -59,6 +58,7 @@ Good.prototype.save = function(callback) {
             return callback(err);
         }
         callback(null, good);
+
     });
 };
 Good.get = function(iid, callback) {
