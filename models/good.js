@@ -4,6 +4,9 @@
 var mongoose = require('mongoose');
 var db = require('./db.js');
 var goodSchema = new mongoose.Schema({
+    qq:String,
+    phone:String,
+    title :String,
     iid:String,
     goods_owner: String,
     goodsPhotos: String,
@@ -14,6 +17,7 @@ var goodSchema = new mongoose.Schema({
     goodsNums: String,
     pastdate: String,
     goodsBewrite:String,
+    sex:String,
     img:[]
 
 }, {
@@ -23,6 +27,10 @@ var goodSchema = new mongoose.Schema({
 var GoodModel = mongoose.model('Good', goodSchema);
 
 function Good(good) {
+        this.qq = good.qq;
+        this.phone = good.phone;
+        this.sex = good.sex;
+        this.title =good.title;
         this.iid=good.iid;
         this.goods_owner=good.goods_owner;
         this.goodsPhotos=good.goodsPhotos;
@@ -38,6 +46,10 @@ function Good(good) {
 
 Good.prototype.save = function(callback) {
     var good= {
+    qq:this.qq,
+    phone:this.phone,
+    sex:this.sex,
+    title :this.title,
     iid : this.iid,
     goods_owner:this.goods_owner,
     goodsPhotos:this.goodsPhotos,
@@ -80,6 +92,19 @@ Good.update = function(iid,img,callback){
             callback( 'update ok!');
         }
     });
+
+}
+Good.modify = function(data,callback){
+    GoodModel.update({iid:data.iid},{$set : data},function (err,doc) {
+        if(doc!=1){
+                var goodinstance = new Good(data);
+                goodinstance.save(function(t,info){
+                    console.log(info);
+            });
+        }else{
+            callback("ok");
+        }
+    })
 
 }
 

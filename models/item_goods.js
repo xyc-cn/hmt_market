@@ -10,12 +10,13 @@ var Good = require('../models/good.js');
 
 
 // 读取博客首页
-module.exports = function(url,callback){
+module.exports = function(url,name,callback){
     request(url, function (err, res) {
         if (err) return console.error(err);
         // 根据网页内容创建DOM操作对象
         var $ = cheerio.load(res.body.toString());
         var item = {
+            title:name,
             iid:url.match(/iid=([0-9a-z]+)&iaction=(\w+)&st=(\w+)/)[1],
             img:[]
         }
@@ -27,12 +28,24 @@ module.exports = function(url,callback){
             })
         }
 
+        if(dom.find('tr').find('a').text().match(/\d+/)!=null){
+            item.qq=dom.find('tr').find('a').text().match(/\d+/)[0];
+        }
+
+
         $('#mainRight_goodsSubject tr').each(function(index,value){
             var key =$(dom.find('tr')[index]).find('img').attr('src');
-            var data =$(dom.find('tr')[index]).text().trim();
+            var data =$(dom.find('tr')[index]).text();
+
             if(key!=null&&data!=null)
             {   key = key.match(/icon_(\w+)/)[1];
+                data=data.trim();
                 item[key]=data;
+            }
+            if(index<5){
+                if($(dom.find('tr')[3]).text().match(/\w{11}/)!=null){
+                    item.phone=$(dom.find('tr')[3]).text().match(/\w{11}/)[0];
+                }
             }
         });
 

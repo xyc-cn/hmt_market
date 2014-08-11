@@ -37,7 +37,6 @@ request(url, function (err, res) {
     });
 
     // 输出结果
-    console.log(classList);
     callback(classList);
 });
 }

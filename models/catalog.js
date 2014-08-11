@@ -6,7 +6,7 @@ var db = require('./db.js');
 
 var catalogSchema = new mongoose.Schema({
     iid:String,
-    name:String,
+    page:String,
     goods:[]
 
 }, {
@@ -15,17 +15,17 @@ var catalogSchema = new mongoose.Schema({
 
 var CatalogModel = mongoose.model('Catalog', catalogSchema);
 
-function Catalog(catalog) {
-    this.iid=catalog.iid;
-    this.name = catalog.name;
-    this.goods = catalog.goods;
+function Catalog(iid,page,goods) {
+    this.iid=iid;
+    this.goods =goods;
+    this.page = page;
 };
 
 Catalog.prototype.save = function(callback) {
     var catalog= {
         iid : this.iid,
-        name:this.name,
-        goods:this.goods
+        goods:this.goods,
+        page:this.page
     };
 
     var catalogUser = new CatalogModel(catalog);
@@ -37,19 +37,19 @@ Catalog.prototype.save = function(callback) {
         callback(null, catalog);
     });
 };
-Catalog.get = function(iid, callback) {
-    CatalogModel.findOne({iid: iid}, function (err, catalog) {
+Catalog.get = function(iid,page, callback) {
+    CatalogModel.findOne({iid: iid,page:page}, function (err, catalog) {
         if (err) {
             return callback(err);
         }
         callback(null, catalog);
     });
 };
-Catalog.update = function(iid,img,callback){
-    var conditions = {iid : iid};
-    var update     = {$set : {img: img}};
+Catalog.update = function(iid,page,goods,callback){
+    var conditions = {iid : iid,page:page};
+    var update     = {$set : {goods: goods}};
     var options    = {upsert : true};
-    Catalog.update(conditions, update, options, function(error,data){
+    CatalogModel.update(conditions, update, options, function(error,data){
         if(error) {
             console.log(error);
         } else {
